@@ -1,2 +1,2 @@
 # LLM-Frontend_Unity
-frontend for LLM servers implemented in Unity
+A frontend for LLM servers implemented in Unity
