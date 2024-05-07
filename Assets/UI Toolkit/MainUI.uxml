@@ -1,0 +1,19 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/MainUSS.uss?fileID=7433441132597879392&amp;guid=9e684ccfc627f7642941bdf6cfbc27f4&amp;type=3#MainUSS" />
+    <ui:VisualElement name="Container" style="flex-grow: 1; flex-direction: row;">
+        <ui:VisualElement name="FuncList" style="flex-grow: 1; background-color: rgb(255, 0, 0); width: 10%; height: 100%; align-items: center; justify-content: center;">
+            <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" name="FuncSelectionButton1" style="width: 70%; height: 10%;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="LogoContainer" style="height: 100%; width: 40%; background-color: rgba(244, 1, 255, 0.14); align-items: center; justify-content: center; flex-shrink: 0;">
+            <ui:VisualElement name="CenterLogo" class="centerLogo" />
+        </ui:VisualElement>
+        <ui:VisualElement name="FuncUI" style="flex-grow: 1; background-color: rgb(7, 16, 255); width: 80%; height: 100%;">
+            <ui:VisualElement name="FuncTranslateContainer" style="background-color: rgb(0, 255, 49); width: 100%; flex-direction: column; height: 100%; position: absolute; opacity: 1;">
+                <ui:VisualElement name="TranslateUI" class="translateUI--invisible translateUI--visible" style="width: auto;">
+                    <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="FuncCloseButton1" style="position: absolute; bottom: 3%; width: 50px; height: 50px;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="FuncChatContainer" style="background-color: rgb(255, 210, 0); width: 100%; height: 100%; position: absolute; opacity: 1; visibility: visible; display: none;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
