@@ -1,4 +1,4 @@
-.translateUI--invisible {
+.func1UI--invisible {
     transition-duration: 1s;
     opacity: 0;
     position: absolute;
@@ -8,7 +8,7 @@
     translate: 100% 0;
 }
 
-.translateUI--visible {
+.func1UI--visible {
     transition-duration: 1s;
     opacity: 1;
     translate: 0 0;
